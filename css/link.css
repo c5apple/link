@@ -1,14 +1,35 @@
-a{
+/**
+ * 共通
+ */
+a {
 	display: block;
 	width: 230px;
 	height: 225px;
+}
+.indent-9999 {
 	text-indent: -9999px;
 }
 
-.link{
+/**
+ * link1
+ * 背景画像
+ */
+.link1{
 	background-image: url('../img/link1.jpg');
 }
 
-.link:hover{
+.link1:hover{
+	background-image: url('../img/link2.jpg');
+}
+
+/**
+ * link2
+ * 初期表示画像　ロールオーバー時背景
+ */
+.link2:hover img {
+    visibility: hidden;
+}
+
+.link2:hover{
 	background-image: url('../img/link2.jpg');
 }
