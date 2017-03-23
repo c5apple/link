@@ -1,0 +1,14 @@
+a{
+	display: block;
+	width: 230px;
+	height: 225px;
+	text-indent: -9999px;
+}
+
+.link{
+	background-image: url('../img/link1.jpg');
+}
+
+.link:hover{
+	background-image: url('../img/link2.jpg');
+}
